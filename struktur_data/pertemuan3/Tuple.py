@@ -5,6 +5,8 @@ print(logsApps)
 print("Memiliki ukuran Tuple", sys.getsizeof(logsApps))
 
 logsApps = ["user1 Login", "User2 Login"]
+print(logsApps)
+print("Memiliki ukuran list", sys.getsizeof(logsApps))
 
 # buktikan bahwa tuple bersifat immutable / tidak dapat diubah
 # menambahkan elemen ke dalam tuple
@@ -21,4 +23,8 @@ print(logsApps[-1]) #akses index ke-1
 # Slice dan copy
 print(logsApps[0;1])
 backup_logsAppS = logsApps[:]
-print
+print(backup_logsAppS)
+
+usr1, usr2 = logsApps
+print(usr1)
+print(usr2)
