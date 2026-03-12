@@ -46,3 +46,13 @@ print(setA&setB)
 print(setA-setB)
 # symmetric difference
 print(setA^setB)
+
+setUnion = setA.union(setB)
+print(setUnion)
+
+# struktur data hash
+dataMahasiswa = {
+    "Nama" : "Andi", "Budi"
+    "NIM": "20240140014", "20240140015"
+    "Jurusan": "Teknik Informatika", "Teknik Elektro"
+}
